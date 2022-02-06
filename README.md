@@ -1,1 +1,1 @@
-# xayal_game
+# javascript_game
