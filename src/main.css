@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&display=swap');
+:root{
+    --mainColor: #31525b;
+    --mainColoryellow: #ffa101;
+    --darkcolor: #191414;
+    --lightblue: #b3dee5; 
+    --font2: 'Fredoka One', cursive;
+    --font3: 'Bebas Neue', cursive;
+}
+.textmaincolor{
+    color: var(--mainColor);
+}
+.bgmaincolor{
+    background-color: var(--mainColor);
+}
+.textdarkcolor{
+    color: var(--darkcolor);
+}
+.bgdarkcolor{
+    background-color: var(--darkcolor);
+}
+.textmaincoloryellow{
+    color: var(--mainColoryellow);
+}
+.bgmaincoloryellow{
+    background-color: var(--mainColoryellow);
+}
+.lightblue{
+    color: var(--lightblue);
+}
+.bglightblue{
+    background-color: var(--lightblue);
+}
+.myfont{
+    font-family: var(--font2);
+}
+.myfont3{
+    font-family: var(--font3);
+}
+
+body{
+    background-color: #1e3338;
+}
+.allgames{
+    border-left: 4px solid #ffa101;
+}
+.gamecard{
+    border-radius: 30px;
+}
+.gamecard img{
+    border-radius: 20px;
+}
+.btngogame:hover{
+    background-color: #b6780d;
+}
+.btngogame:after{
+    background-color: #b6780d;
+}
+.btngogame:before{
+    background-color: #b6780d;
+}
+
+
+.visible-scrollbar, .invisible-scrollbar, .mostly-customized-scrollbar {
+    display: block;
+    width: 10em;
+    overflow: auto;
+    height: 2em;
+    color: #ffa101;
+    background-color: #ffa101;
+  }
+  
+  .invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
