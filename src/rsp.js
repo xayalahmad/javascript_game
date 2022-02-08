@@ -18,9 +18,9 @@ const firebaseConfig = {
 $(document).on("click", ".questiongamebtnrsp", function (e) {
   e.preventDefault();
   // var contactBudagi = db.ref("/ContactUs/")
-  var myname =  $(".questiongamenamersp").val()
+  var myname =  $(".questiongamename").val()
   var comment =  $(".questiongamecommentrsp").val()
-  if(($(".questiongamenamersp").val()) && ($(".questiongamecommentrsp").val())){
+  if(($(".questiongamename").val()) && ($(".questiongamecommentrsp").val())){
     pushContactDB(myname, comment)
   }
 });
@@ -28,7 +28,7 @@ function pushContactDB(myname, comment) {
     db.ref("/rspgame/").push().set({
       myname, comment
     })
-    $(".questiongamenamersp").val("")
+    $(".questiongamename").val("")
     $(".questiongamecommentrsp").val("")
 }
 
