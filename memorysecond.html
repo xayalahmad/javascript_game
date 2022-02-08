@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='./src/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./src/memory.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+<body>
+
+    <div class="bgmaincolor">
+        <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bgmaincolor d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand text-light d-flex align-items-center" href="./index.html">
+                        <i class="fas fa-chess" style="font-size: 32px;"></i>
+                        <div class="d-flex ml-2">
+                        <div class="textmaincoloryellow myfont flex-end" style="font-size: 30px;">Xayal</div>
+                        <div class="ml-2 myfont" style="font-size: 30px;">Games</div>
+                        </div>
+                    </a>
+                    <div class="d-flex">
+                        <li class="nav-item dropdown" style="list-style: none;">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            All Games
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Paper Scissors Rock</a>
+                                <a class="dropdown-item" href="#">Find Painter</a>
+                                <a class="dropdown-item" href="#">Crystal collector</a>
+                            </div>
+                          </li>
+                    <a class="navbar-brand text-light" href="#">Contact</a>
+                </div>
+                </nav>
+       </div>
+    </div>
+    <div class="container mt-5">
+            <a href="./index.html" class="btngogame bgmaincoloryellow btn btn-primary text-light border-0 mb-4">Back</a>
+            <div class="mb-5 h2 col-lg-3 allgames text-light">City Card</div>
+</div>
+<div class="d-flex justify-content-between container">
+        <div class="container col-lg-10 mb-5">
+            <div class="container">
+        
+<div class="d-flex mb-3">
+    <div class="card border-0 mr-2">
+          <img style="border-radius: 18px;" src="./img/london.jpg" class="card-img-top" alt="...">
+          <img  data-cityname="london" id="closecard1" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card border-0 mr-2 ml-2">
+          <img style="border-radius: 18px;" src="./img/paris.jpg" class="card-img-top" alt="...">
+          <img data-cityname="paris" id="closecard2" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card border-0 mr-2 ml-2">
+          <img style="border-radius: 18px;" src="./img/rome.jpg" class="card-img-top" alt="...">
+          <img  data-cityname="rome" id="closecard3" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="card border-0 ml-2">
+          <img style="border-radius: 18px;" src="./img/newyork.jpg" class="card-img-top" alt="...">
+          <img data-cityname="newyork" id="closecard4" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+    </div>
+</div>
+<div class="d-flex">
+  <div class="card border-0 mr-2">
+        <img style="border-radius: 18px;" src="./img/newyork.jpg"  class="card-img-top" alt="...">
+        <img data-cityname="newyork" id="closecard5" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 mr-2 ml-2">
+      <img style="border-radius: 18px;" src="./img/paris.jpg" class="card-img-top" alt="...">
+      <img data-cityname="paris" id="closecard6" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 mr-2 ml-2">
+      <img style="border-radius: 18px;" src="./img/london.jpg" class="card-img-top" alt="...">
+      <img data-cityname="london" id="closecard7" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+  </div>
+  <div class="card border-0 ml-2">
+        <img style="border-radius: 18px;" src="./img/rome.jpg" class="card-img-top" alt="...">
+        <img data-cityname="rome" id="closecard8" style="position: absolute; top: auto; border-radius: 18px;" src="./img/playing-cards-back-epsilon-vector-2848247.jpg" class="card-img-top" alt="...">
+  </div>
+</div>
+<div class="winsection jumbotron-fluid mt-5 d-none">
+    <div class="container">
+      <h1 class="display-4 text-center">Your Win!!!</h1>
+      <button onclick="location.reload();" class="lead btngogame bgmaincoloryellow btn btn-primary text-light border-0 btn-block">Restart game</button>
+    </div>
+  </div>
+
+            </div>
+
+        </div>
+
+        <div class="gamepagecard col-lg-3">
+            <div class="gamecard col-lg-10 col-sm-6">
+                <img src="./img/paperrockscis.jpg" class="card-img-top m-0 p-0" style="width: 100%;" alt="...">
+                <div class="card-body pt-1">
+                    <h4 class="card-title myfont3 h5 text-light text-center m-0">Paper Scissors Rock</h4>
+                <a href="#" class="btn btn-primary btn-block text-light bgmaincoloryellow border-0 btngogame p-0">Game >></a>
+                </div>
+            </div>
+
+                <div class="gamecard col-lg-10 col-sm-6">
+                    <img src="./img/crystal.jpg" class="card-img-top m-0 p-0" style="width: 100%;" alt="...">
+                    <div class="card-body pt-1">
+                        <h4 class="card-title myfont3 h5 text-light text-center m-0">Crystal collector</h4>
+                    <a href="#" class="btn btn-primary btn-block text-light bgmaincoloryellow border-0 btngogame p-0">Game >></a>
+                    </div>
+                </div>
+        </div>
+
+
+</div>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="./src/memory.js"></script> 
+
+    
+</body>
+</html>
