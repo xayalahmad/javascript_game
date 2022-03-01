@@ -48,7 +48,7 @@ db.ref("/rspgame/").on("value", function(snap){
     commentallrsp = $("#allcommentrsp")
     console.log(commentallrsp)
     commentallrsp.html(
-      snapArray.map((q)=>{
+      snapArray.reverse().map((q)=>{
         console.log(q)
         return `
                         <div class="border p-4 d-flex mb-3">

@@ -48,7 +48,7 @@ const firebaseConfig = {
     commentall = $("#allcommentcrystal")
     console.log(commentall)
     commentall.html(
-      snapArray.map((q)=>{
+      snapArray.reverse().map((q)=>{
         console.log(q)
         return `
                         <div class="border p-4 d-flex mb-3">
