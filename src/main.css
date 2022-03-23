@@ -80,3 +80,7 @@ body{
     /* padding: 5px; */
 
 }
+.button50{
+    background-image: radial-gradient( circle 759px at -6.7% 50%, rgb(73, 113, 131) 0%, rgb(131, 181, 209) 26.2%, rgb(170, 207, 231) 50.6%, rgb(135, 184, 213)74.1%, rgb(69, 111, 118) 100.3% );
+
+}
