@@ -81,6 +81,12 @@ body{
 
 }
 .button50{
+    transition: all 1s;
+    cursor: pointer;
     background-image: radial-gradient( circle 759px at -6.7% 50%, rgb(73, 113, 131) 0%, rgb(131, 181, 209) 26.2%, rgb(170, 207, 231) 50.6%, rgb(135, 184, 213)74.1%, rgb(69, 111, 118) 100.3% );
-
+}
+.button50:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    width: 800px;
 }

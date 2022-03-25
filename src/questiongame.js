@@ -68,7 +68,7 @@ class Question{
 
     userSelect(a){
         if("abcd".indexOf(a) === -1){
-            // alert("Please click one of 'a b c d'")
+            alert("Please click one of 'a b c d'")
             return
         }
         this.userVariant = a
